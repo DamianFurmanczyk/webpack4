@@ -1,0 +1,24 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "devDependencies": {
+    "extract-loader": "^2.0.1",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --config=conf/webpack.dev.js",
+    "build": "webpack --config=conf/webpack.dev.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
